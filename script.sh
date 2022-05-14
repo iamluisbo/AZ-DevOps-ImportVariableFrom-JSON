@@ -34,6 +34,19 @@ for ((i = 0 ; i < $length ; i++)); do
     keys=$(jq ".[$i].variables | keys" $filename)
 
 
+    # Check if Variable Group exits in Azure Devops
+    group=$(az pipelines variable-group list \
+        --org $orgUrl \
+        --project "$projectName" | jq ".[] | select(.name==\"$name\")")
+    
+    # If group exits in azure devops, it's not goint to try 
+    # to create it again or create new variables for that group
+    if [[ -n $group ]]; then 
+        echo "Group $name already exixts"
+        continue
+    fi
+
+
     # Loop into variables in group
     for ((j = 0 ; j < $variableLength ; j++)); do
         # Get current variable Key or Variable name
@@ -52,6 +65,8 @@ for ((i = 0 ; i < $length ; i++)); do
         else
             concat="$currentKey=$value"
         fi
+
+        
 
         # Check if the first interation i=on $j loop
         # in order to create the variable-group and first variable
