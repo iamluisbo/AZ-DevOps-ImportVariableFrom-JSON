@@ -1,0 +1,96 @@
+[
+  {
+    "createdBy": {
+      "descriptor": null,
+      "directoryAlias": null,
+      "displayName": "luisbonilla345",
+      "id": "bb1c1772-1818-60b2-b5d6-1e2cf59d58c7",
+      "imageUrl": null,
+      "inactive": null,
+      "isAadIdentity": null,
+      "isContainer": null,
+      "isDeletedInOrigin": null,
+      "profileUrl": null,
+      "uniqueName": "luisbonilla345@gmail.com",
+      "url": null
+    },
+    "createdOn": "2022-05-11T15:40:01.066666+00:00",
+    "description": "",
+    "id": 2,
+    "isShared": false,
+    "modifiedBy": {
+      "descriptor": null,
+      "directoryAlias": null,
+      "displayName": "luisbonilla345",
+      "id": "bb1c1772-1818-60b2-b5d6-1e2cf59d58c7",
+      "imageUrl": null,
+      "inactive": null,
+      "isAadIdentity": null,
+      "isContainer": null,
+      "isDeletedInOrigin": null,
+      "profileUrl": null,
+      "uniqueName": "luisbonilla345@gmail.com",
+      "url": null
+    },
+    "modifiedOn": "2022-05-11T15:40:01.066666+00:00",
+    "name": "New variable group 11-May",
+    "providerData": null,
+    "type": "Vsts",
+    "variableGroupProjectReferences": null,
+    "variables": {
+      "test1": {
+        "isSecret": null,
+        "value": "valueTest"
+      }
+    }
+  },
+  {
+    "createdBy": {
+      "descriptor": null,
+      "directoryAlias": null,
+      "displayName": "luisbonilla345",
+      "id": "bb1c1772-1818-60b2-b5d6-1e2cf59d58c7",
+      "imageUrl": null,
+      "inactive": null,
+      "isAadIdentity": null,
+      "isContainer": null,
+      "isDeletedInOrigin": null,
+      "profileUrl": null,
+      "uniqueName": "luisbonilla345@gmail.com",
+      "url": null
+    },
+    "createdOn": "2022-05-11T14:21:17.336666+00:00",
+    "description": "",
+    "id": 1,
+    "isShared": false,
+    "modifiedBy": {
+      "descriptor": null,
+      "directoryAlias": null,
+      "displayName": "luisbonilla345",
+      "id": "bb1c1772-1818-60b2-b5d6-1e2cf59d58c7",
+      "imageUrl": null,
+      "inactive": null,
+      "isAadIdentity": null,
+      "isContainer": null,
+      "isDeletedInOrigin": null,
+      "profileUrl": null,
+      "uniqueName": "luisbonilla345@gmail.com",
+      "url": null
+    },
+    "modifiedOn": "2022-05-11T14:21:17.336666+00:00",
+    "name": "Test Variable Group",
+    "providerData": null,
+    "type": "Vsts",
+    "variableGroupProjectReferences": null,
+    "variables": {
+      "password": {
+        "isSecret": true,
+        "value": null
+      },
+      "test": {
+        "isSecret": null,
+        "value": "test"
+      }
+    }
+  }
+]
